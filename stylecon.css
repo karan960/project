@@ -1,0 +1,130 @@
+body{
+background-color: rgba(0, 0, 0, 0.2);
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.head{
+
+    background-color: rgb(244, 169, 78);
+
+  }
+  header {
+    background-color:rgba(0, 0, 0, 0.4) ;
+    color: #ac6969;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .logo h1 {
+    margin: 0px;
+    color: oldlace;
+  }
+  
+  nav ul {
+    color: rgb(244, 169, 78);
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    
+  }
+  
+  nav li {
+    margin-right: 20px;
+    font-size: 20px;
+    color: brown;
+    
+  }
+  .header1{
+    padding-top: 80px;
+    background-color:rgba(0, 0, 0, 0.4) ;
+
+  }
+ .header1 {
+        text-align: center;
+        color:antiquewhite;
+        font-size: 50px;
+        padding-bottom: 20px;
+
+  }
+  .header1 p{
+    text-align: center;
+    color:aqua;
+    font-size: 30px;
+  }
+  .navbar :hover{
+
+      color: aqua;
+
+  }
+  a{
+
+    color: brown;
+
+  }
+
+.form{
+margin-left: 550px;
+margin-top: 100px;
+border: 5px solid black;
+max-width: 500px;
+border-radius: 5px;
+padding-left: 20px;
+padding-bottom: 20px;
+}
+
+label{
+
+color: aqua;
+display: block;
+margin-bottom: 5px;
+
+}
+ h1{
+ color: orangered;
+ text-align: center;
+ }
+
+ input[type="text"],input[type="email"],select{
+
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+ }
+ select{
+
+    color: aqua;
+    background-color: black;
+    cursor: pointer;
+ }
+
+ input[type="submit"]{
+
+    background-color:burlywood;
+    color: black;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+
+ }
+
+ input[type="submit"]:hover{
+
+    background-color: aqua;
+
+ }
+ .footer{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: aqua;
+    padding-top: 100px;
+    margin-top: 100px;
+    text-align: justify;
+ }
